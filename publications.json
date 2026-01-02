@@ -1,6 +1,24 @@
 {
   "publications": [
     {
+      "id": "molmo2",
+      "title": "Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+      "authors": ["Christopher Clark", "Jieyu Zhang", "Zixian Ma", "Jae Sung Park", "Mohammadreza Salehi", "Rohun Tripathi", "Sangho Lee", "Zhongzheng Ren", "Chris Dongjoo Kim", "Yinuo Yang", "Vincent Shao", "Yue Yang", "Weikai Huang", "Ziqi Gao", "Taira Anderson", "Jianrui Zhang", "Jitesh Jain", "George Stoica", "Winson Han", "Ali Farhadi", "Ranjay Krishna"],
+      "venue": "Ai2 Technical Report",
+      "year": "2025",
+      "image": "images/molmo2.jpeg",
+      "links": {
+        "blog": "https://allenai.org/blog/molmo2",
+        "demo": "https://playground.allenai.org/?model=molmo2-8b",
+        "report": "https://allenai.org/papers/molmo2",
+        "models": "https://huggingface.co/collections/allenai/molmo2",
+        "data": "https://huggingface.co/collections/allenai/molmo2-data",
+        "code": "https://github.com/allenai/molmo2"
+      },
+      "selected": true,
+      "tldr": null
+    },
+    {
       "id": "divscene",
       "title": "DivScene: Benchmarking LVLMs for Object Navigation with Diverse Scenes and Objects",
       "authors": ["Zhaowei Wang", "Hongming Zhang", "Tianqing Fang", "Ye Tian", "Yue Yang", "Kaixin Ma", "Xiaoman Pan", "Yangqiu Song", "Dong Yu"],
