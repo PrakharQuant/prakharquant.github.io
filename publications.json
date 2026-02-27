@@ -2,14 +2,16 @@
   "publications": [
     
     {
-      "id": "vgsi",
-      "title": "Visual Goal-Step Inference using wikiHow",
-      "authors": ["Prakhar Gupta"],
-      "venue": "EMNLP",
-      "year": "2021",
+      "id": "indigo",
+      "title": "Antitrust Regulatory Gap in IndiGo Airlines 2025 Fiasco : Lessons from the US and EU",
+      "authors": ["Prakhar Gupta", "Tanya Gupta"],
+      "venue": "SSRN",
+      "year": "2025",
       
       "selected": true,
-      "tldr": "This work proposes the Visual Goal-Step Inference (VGSI) task where a model is given a textual goal and must choose a plausible step towards that goal from among four candidate images. We construct a VGSI dataset from wikiHow and show that SOTA multimodal models struggle on it."
+      "tldr": "India’s aviation market is highly concentrated, with IndiGo’s dominance and a December 2025 crisis exposing weaknesses in the country’s competition law framework.
+
+Comparing India’s restrained approach with U.S. and EU enforcement, the paper argues for stronger proactive safeguards to protect consumer welfare in essential infrastructure sectors."
     }
   ]
 }
