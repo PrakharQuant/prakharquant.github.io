@@ -127,6 +127,7 @@ function createPublicationHTML(pub) {
     
     // Create links with icons
     const linksHtml = Object.entries(pub.links || {})
+        .filter(([key]) => key !== 'website') // This hides the Website button
         .map(([key, url]) => {
             const icon = getLinkIcon(key, url);
             const label = key.charAt(0).toUpperCase() + key.slice(1); // Capitalize first letter
