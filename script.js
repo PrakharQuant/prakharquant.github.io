@@ -169,7 +169,7 @@ function createPublicationHTML(pub) {
             ${imageHtml}
             <div class="publication-content">
                 <div class="publication-title">
-                    <a href="${pub.links?.paper || pub.links?.arxiv || '#'}" target="_blank">${pub.title}</a>
+                    <a href="${pub.links?.website || pub.links?.paper || '#'}" target="_blank">${pub.title}</a>
                 </div>
                 <div class="publication-authors">${authorsHtml}</div>
                 <div class="publication-venue">
