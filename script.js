@@ -122,7 +122,7 @@ function getLinkIcon(key, url) {
 
 function createPublicationHTML(pub) {
     const authorsHtml = pub.authors.map(author => 
-        author.includes('Yue Yang') ? `<strong>${author}</strong>` : author
+        author.includes('Prakhar Gupta') ? `<strong>${author}</strong>` : author
     ).join(', ');
     
     // Create links with icons
