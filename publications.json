@@ -1,6 +1,5 @@
 {
   "publications": [
-    
     {
       "id": "VGSI",
       "title": "Antitrust Regulatory Gap in IndiGo Airlines 2025 Fiasco : Lessons from the US and EU",
@@ -10,10 +9,23 @@
       "image": "images/vgsi.png",
       "selected": true,
       "links": {
-      "paper": "papers/VGSI.pdf",
+        "paper": "papers/VGSI.pdf",
         "website": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5880605"
+      },
+      "tldr": "India's aviation market is highly concentrated, with IndiGo's dominance and a December 2025 crisis exposing weaknesses in the country's competition law framework. Comparing India's restrained approach with U.S. and EU enforcement, the paper argues for stronger proactive safeguards to protect consumer welfare in essential infrastructure sectors."
     },
-      "tldr": "India’s aviation market is highly concentrated, with IndiGo’s dominance and a December 2025 crisis exposing weaknesses in the country’s competition law framework.Comparing India’s restrained approach with U.S. and EU enforcement, the paper argues for stronger proactive safeguards to protect consumer welfare in essential infrastructure sectors."
+    {
+      "id": "finance-comics-2025",
+      "title": "Finance Comics: Pricing Black-Scholes Concepts",
+      "authors": ["Prakhar Gupta"],
+      "venue": "Amazon Kindle",
+      "year": "2025",
+      "image": "images/finance-comics-cover.jpg",
+      "selected": true,
+      "links": {
+        "paper": "https://www.amazon.in/Finance-Comics-Pricing-Scholes-concepts-ebook/dp/B0GCTXRNRP"
+      },
+      "tldr": "A comic-format explainer on derivatives pricing and Black-Scholes theory, designed to make quantitative finance concepts visually intuitive and accessible."
     }
   ]
 }
