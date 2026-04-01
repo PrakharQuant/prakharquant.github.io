@@ -136,17 +136,17 @@ function createPublicationHTML(pub) {
         .join('');
     
     const imageHtml = pub.video 
-        ? `<div class="publication-image">
-               ${pub.videoCaption ? `<div class="video-caption">${pub.videoCaption}</div>` : ''}
-               <video autoplay muted loop>
-                   <source src="${pub.video}" type="video/mp4">
-               </video>
-           </div>`
-        : pub.image 
-        ? `<div class="publication-image">
-               <img src="${pub.image}" alt="${pub.title}">
-           </div>`
-        : '';
+    ? `<div class="publication-image">
+           ${pub.videoCaption ? `<div class="video-caption">${pub.videoCaption}</div>` : ''}
+           <video autoplay muted loop>
+               <source src="${pub.video}" type="video/mp4">
+           </video>
+       </div>`
+    : pub.image 
+    ? `<div class="publication-image" ${pub.smallImage ? 'style="width:50%;max-width:50%;"' : ''}>
+           <img src="${pub.image}" alt="${pub.title}">
+       </div>`
+    : '';
     
     const awardHtml = pub.award ? `<span class="award">(${pub.award})</span>` : '';
     
