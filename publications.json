@@ -21,9 +21,10 @@
       "venue": "Amazon Kindle",
       "year": "2025",
       "image": "images/finance-comics-cover.jpg",
+      "smallImage": true,
       "selected": true,
       "links": {
-        "paper": "https://www.amazon.in/Finance-Comics-Pricing-Scholes-concepts-ebook/dp/B0GCTXRNRP"
+        "website": "https://www.amazon.in/Finance-Comics-Pricing-Scholes-concepts-ebook/dp/B0GCTXRNRP"
       },
       "tldr": "A comic-format explainer on derivatives pricing and Black-Scholes theory, designed to make quantitative finance concepts visually intuitive and accessible."
     }
