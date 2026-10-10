@@ -30,15 +30,30 @@
     },
     {
       "id": "bookbuilding-flipbook",
-      "title": "Book-Building: A Flip Book",
+      "title": "The Work You Cannot See: Book-Building of a Billion-Dollar Bond Deal",
       "authors": ["Prakhar Gupta"],
-      "venue": "Interactive flip book",
+      "venue": "Flip book",
       "year": "2026",
+      "image": "images/bookbuilding-cover.jpg",
       "selected": false,
       "links": {
         "website": "https://bookbuilding.grok.me/"
       },
-      "tldr": "A flip-book walkthrough of the book-building process, written as a short visual explainer rather than a formal paper."
+      "tldr": "Who gets paid for book building of a billion-dollar bond deal. A flip-book walkthrough of the work behind the allocation."
+    },
+    {
+      "id": "volatility-flipbook",
+      "title": "Mathematics for Finance: Volatility Modeling",
+      "authors": ["Prakhar Gupta"],
+      "venue": "Flip book",
+      "year": "2026",
+      "image": "images/volatility-cover.jpg",
+      "smallImage": true,
+      "selected": false,
+      "links": {
+        "website": "https://online.fliphtml5.com/PrakharQuant/Quant_flipbook_1/#p=1"
+      },
+      "tldr": "A self-assessment guide on volatility modeling, written as a flip book rather than a formal paper."
     }
   ]
 }
