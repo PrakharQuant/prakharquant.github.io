@@ -225,6 +225,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Toggle between selected and all projects
+document.addEventListener('DOMContentLoaded', () => {
+    const selectedProjectsBtn = document.getElementById('selectedProjectsBtn');
+    const allProjectsBtn = document.getElementById('allProjectsBtn');
+    if (!selectedProjectsBtn || !allProjectsBtn) return;
+
+    const showSelectedProjects = (selectedOnly) => {
+        document.querySelectorAll('.minor-project').forEach(item => {
+            item.style.display = selectedOnly ? 'none' : '';
+        });
+        selectedProjectsBtn.classList.toggle('active', selectedOnly);
+        allProjectsBtn.classList.toggle('active', !selectedOnly);
+    };
+
+    selectedProjectsBtn.addEventListener('click', () => showSelectedProjects(true));
+    allProjectsBtn.addEventListener('click', () => showSelectedProjects(false));
+});
+
 // Smooth scroll with offset for sticky nav
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

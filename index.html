@@ -156,11 +156,64 @@
 
            <!-- Projects Section -->
         <section id="projects" class="section">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-list">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="view-toggle">
+                    <button id="selectedProjectsBtn" class="active">Selected</button>
+                    <button id="allProjectsBtn">All Projects</button>
+                </div>
+            </div>
+            <div class="projects-list">
 
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://marketselect.onrender.com" target="_blank" class="highlight-link">MarketSelect: EV-Charging Market Entry</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Tools: Python, PuLP, Streamlit, Render, Statista</em>
+                    · <a href="https://github.com/PrakharQuant/marketselect" target="_blank">GitHub</a>
+                    · <a href="https://marketselect.onrender.com" target="_blank">Live</a>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    A decision app for public EV-charging market entry. It takes Statista revenue forecasts for 9 European countries and solves a mixed-integer program for which markets to enter and how to split a fixed budget.
+                </p>
+            </div>
+        </div>
 
-        <div class="projects-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://macrotab.streamlit.app" target="_blank" class="highlight-link">MacroTab: Macro Regime Map and Crisis Radar</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Tools: Python, Streamlit, Global Macro Database</em>
+                    · <a href="https://github.com/PrakharQuant/macrotab" target="_blank">GitHub</a>
+                    · <a href="https://macrotab.streamlit.app" target="_blank">Live</a>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    Turns 60+ years of country-level macro data from Prof. Karsten Müller's Global Macro Database into a research workflow: historical-only K-means regime discovery, next-year crisis scoring with temporal out-of-sample testing, country ranking across growth, inflation, debt, current account and unemployment, and illustrative macro tilts. Users upload data fetched from globalmacrodata.com.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://optionscope-ai-5tdz.onrender.com" target="_blank" class="highlight-link">OptionScope AI: Indian Index Options</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Tools: Python, market and sentiment analytics, Render</em>
+                    · <a href="https://github.com/PrakharQuant/OptionScope-AI" target="_blank">GitHub</a>
+                    · <a href="https://optionscope-ai-5tdz.onrender.com" target="_blank">Live</a>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    Analytics on 25+ years of Indian index-options data: market and sentiment analytics, regime detection, anomaly detection, event analysis, 12-month forecasting, and a composite market-intelligence score.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
                     <a href="https://getsignal.netlify.app/" target="_blank" class="highlight-link">Earnings Call Intelligence: App built at Cursor Hackathon</a>
@@ -174,48 +227,35 @@
             </div>
         </div>
 
-
-
-
-
-
-        
-      <div class="projects-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
-                    <a href="https://play.google.com/store/apps/details?id=com.distrodetective.app" target="_blank" class="highlight-link">Distro Detective: Probability Dsitributions Learning App</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.distrodetective.app" target="_blank" class="highlight-link">Distro Detective: Probability Distributions Learning App</a>
                 </h3>
                 <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
-                    <em>Tools: Capacitor, Android studio, VSCode</em>
+                    <em>Tools: Capacitor, Android Studio, VS Code</em>
                 </p>
                 <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
-                    An app that helps learn different Probability Distributions and their applications.
+                    An app that helps learn different probability distributions and their applications.
                 </p>
             </div>
         </div>
 
-
-
-         <div class="projects-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
                     <a href="https://tangencyport-n3nehcmv.manus.space/" target="_blank" class="highlight-link">The Tangency Portfolio Website</a>
                 </h3>
                 <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
-                    <em>Tools: html, CSS, javascript</em>
+                    <em>Tools: HTML, CSS, JavaScript</em>
                 </p>
                 <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
-                    A webiste cocreated with AI for the theory with practice questions on CAPM and Tangency Portfolio.
+                    A website co-created with AI for the theory, with practice questions on CAPM and the tangency portfolio.
                 </p>
             </div>
         </div>
 
-
-
-        
-
-
-       <div class="projects-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
                     <a href="https://github.com/PrakharQuant/quant-nn-backprop" target="_blank" class="highlight-link">Neural Network from Scratch on Financial Data</a>
@@ -224,13 +264,12 @@
                     <em>Tools: NumPy, pandas, yfinance</em>
                 </p>
                 <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
-                    Developed and deployed the Neural Net Model for predicting monthly stock returns using momentum, volatility, and P/E ratio as features, implemented forward pass, backpropagation step, and weight update .
+                    Developed a neural net for predicting monthly stock returns using momentum, volatility, and P/E ratio as features, with forward pass, backpropagation, and weight updates implemented from scratch.
                 </p>
             </div>
         </div>
 
-        
-        <div class="projects-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
                     <a href="https://play.google.com/store/apps/details?id=com.prakharquant.hugme.app" target="_blank" class="highlight-link">HugMe: Moodlifting App</a>
@@ -244,7 +283,7 @@
             </div>
         </div>
 
-        <div class="projects-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
                     <a href="https://github.com/PrakharQuant/aviation-crash-stock-impact" target="_blank" class="highlight-link">Stock Impact Analysis: Boeing vs. Airbus</a>
@@ -258,7 +297,7 @@
             </div>
         </div>
 
-        <div class="projects-item">
+        <div class="projects-item selected-project" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="projects-details">
                 <h3 style="margin: 0; font-size: var(--font-medium);">
                     <a href="https://github.com/PrakharQuant/industry-rotation-analysis" target="_blank" class="highlight-link">Economic Cycle & Sector Rotation Tool</a>
@@ -272,8 +311,78 @@
             </div>
         </div>
 
+        <div class="projects-item minor-project" style="display: none; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://prakharquant.github.io/orangutan-odisha-mystery/" target="_blank" class="highlight-link">Orangutan Odisha Mystery</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Interactive investigation site</em>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    Five juvenile orangutans were found in coastal Odisha, more than 3,000 km from their natural range, with no mothers in sight. This site walks through the clues.
+                </p>
+            </div>
         </div>
-    </section>
+
+        <div class="projects-item minor-project" style="display: none; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://quantpulse.grok.me" target="_blank" class="highlight-link">QuantPulse</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Live research dashboard</em>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    A dashboard of the crux of the latest quant-finance research, updated live and segmented by domain.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects-item minor-project" style="display: none; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://techpulse.grok.me" target="_blank" class="highlight-link">TechPulse</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Live research dashboard</em>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    A dashboard of current AI and ML research: deep learning architectures, reinforcement learning, LLMs and NLP, computer vision, generative models, probabilistic ML, learning theory, AI safety, efficient systems, and robotics.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects-item minor-project" style="display: none; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://threshold-rebalancin-49o7.bolt.host/" target="_blank" class="highlight-link">Institutional Equity Overlays: A Concept Cracker</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Interactive explainer</em>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    A basic concept-cracker on institutional equity overlays, arbitrage, options, and threshold rebalancing.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects-item minor-project" style="display: none; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="projects-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://online.fliphtml5.com/PrakharQuant/Quant_flipbook_1/#p=1" target="_blank" class="highlight-link">Volatility Modelling Flip Book</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">
+                    <em>Flip book</em>
+                </p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal); text-align: justify;">
+                    A short flip book on volatility modelling.
+                </p>
+            </div>
+        </div>
+
+            </div>
+        </section>
 
 
 
@@ -282,6 +391,36 @@
     <section id="insights" class="section">
         <h2 class="section-title">Insights</h2>
         <div class="blog-list">
+
+        <div class="blog-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="blog-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://x.com/PrakharQuant/status/2104776179115077724" target="_blank" class="highlight-link">The Mechanics of a Market Melt: US Bond Yields vs. The Nifty 50</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">2026 • X article</p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal);"><strong>Crux:</strong> How US bond-yield moves transmit into the Nifty 50, and what that says about a market melt.</p>
+            </div>
+        </div>
+
+        <div class="blog-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="blog-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://x.com/PrakharQuant/status/2101121855914742039" target="_blank" class="highlight-link">Can Temporal GATs Replace GARCH Models?</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">2026 • X article</p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal);"><strong>Crux:</strong> Whether temporal graph attention networks can do the job that GARCH still owns in volatility modelling.</p>
+            </div>
+        </div>
+
+        <div class="blog-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+            <div class="blog-details">
+                <h3 style="margin: 0; font-size: var(--font-medium);">
+                    <a href="https://www.linkedin.com/pulse/ai-agent-flow-simplified-prakhar-gupta-3wckc/" target="_blank" class="highlight-link">AI Agent Flow, Simplified</a>
+                </h3>
+                <p style="margin: 0.3rem 0; font-size: var(--font-small); color: var(--text-secondary);">2026 • LinkedIn</p>
+                <p style="margin: 0.5rem 0; font-size: var(--font-normal);"><strong>Crux:</strong> A plain walkthrough of how an AI agent flow is structured, without the jargon.</p>
+            </div>
+        </div>
 
         <div class="blog-item" style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
             <div class="blog-details">

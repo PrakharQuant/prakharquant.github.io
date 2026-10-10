@@ -27,6 +27,18 @@
         "website": "https://www.amazon.in/Finance-Comics-Pricing-Scholes-concepts-ebook/dp/B0GCTXRNRP"
       },
       "tldr": "A comic-format explainer on derivatives pricing and Black-Scholes theory, designed to make quantitative finance concepts visually intuitive and accessible."
+    },
+    {
+      "id": "bookbuilding-flipbook",
+      "title": "Book-Building: A Flip Book",
+      "authors": ["Prakhar Gupta"],
+      "venue": "Interactive flip book",
+      "year": "2026",
+      "selected": false,
+      "links": {
+        "website": "https://bookbuilding.grok.me/"
+      },
+      "tldr": "A flip-book walkthrough of the book-building process, written as a short visual explainer rather than a formal paper."
     }
   ]
 }
